@@ -54,10 +54,12 @@ module.exports = {
                 `\n ⌇⌇ Tato pravidla platí také pro profily členů, a pokud se obě strany nedohodnou jinak, i pro soukromé zprávy.` +
                 `\n ` 
                 )
-            
+        
+        console.log("> Command usage: Command Pravidla has been used.");
         message.channel.send({embeds:[embed]});
-        message.channel.send("https://discord.gg/R94uDaBH");
+        // message.channel.send("https://discord.gg/R94uDaBH");
         message.delete();
+        
 
 
     }
