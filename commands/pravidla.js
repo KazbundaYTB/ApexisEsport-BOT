@@ -4,7 +4,7 @@ module.exports = {
     description: 'this is a ping command',
     execute(message, args){
         const embed = new Discord.MessageEmbed()
-            .setTitle('🎮 • Pravidla Apexis Esport ')
+            .setTitle('🎮 • Pravidla - Apexis Esport ')
             .setColor('RED')
             .setDescription(
                 `\n ` +

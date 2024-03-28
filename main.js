@@ -31,8 +31,8 @@ client.on('messageCreate', message => {
         client.commands.get('test').execute(message, args)
     } else if (command === 'pravidla'){
         client.commands.get('pravidla').execute(message, args)
-    } else if (command === ''){
-        client.commands.get('').execute(message, args)
+    } else if (command === 'informace'){
+        client.commands.get('informace').execute(message, args)
     } else if (command === ''){
         client.commands.get('').execute(message, args)
     } else if (command === ''){
