@@ -17,7 +17,7 @@ for(const file of commandFiles){
 
 client.once("ready", () => {
     console.log(`Přihlásil jsem se za: ${client.user.tag}`)
-    // client.user.setActivity("📌")
+    client.user.setActivity("💻 - Probíhá vývoj.")
 });
 
 

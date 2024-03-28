@@ -22,7 +22,7 @@ module.exports = {
                 `\n __Dali tvrdou práci, aby se tento server stal příjemným místem pro každého!__` +
                 `\n ⌇⌇ Chovejte se k vlastníků a členům tak, jak byste chtěli, aby se oni chovali k vám.` +
                 `\n ⌇⌇ Nehádejte se o moderování v chatech nebo DM.` +
-                `\n ⌇⌇ Pokud máte stížnost, zašlete ji na @Zakladatel týmu` +
+                `\n ⌇⌇ Pokud máte stížnost, zašlete ji na <@&1221497759887265832>` +
                 `\n ⌇⌇ Rozhodnutí učiněná superadministrátory jsou konečná a nelze o nich vyjednávat.` +
                 `\n ` +
                 `\n**Nerespektujte ostatní členy**` +
@@ -52,12 +52,13 @@ module.exports = {
                 `\n ` +
                 `\n **Další informace**` +
                 `\n ⌇⌇ Tato pravidla platí také pro profily členů, a pokud se obě strany nedohodnou jinak, i pro soukromé zprávy.` +
+                `\n ` +
+                `\n ➔ **Permanentní invite - **https://discord.gg/Y6Q2WKxb78` +
                 `\n ` 
                 )
         
         console.log("> Command usage: Command Pravidla has been used.");
         message.channel.send({embeds:[embed]});
-        // message.channel.send("https://discord.gg/R94uDaBH");
         message.delete();
         
 
